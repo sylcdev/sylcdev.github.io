@@ -33,6 +33,7 @@ function App() {
               </Row>
             </Col>
           </Row>
+          <Row style={{height:50}}/>
         </Container>
       </header>
     </div>
