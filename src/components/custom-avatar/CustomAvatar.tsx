@@ -7,7 +7,7 @@ interface ICustomAvatarProps{
 }
 
 function CustomAvatar(props: ICustomAvatarProps){
-    return <Avatar name={props.name} src={props.src} size="250" round/>
+    return <Avatar name={props.name} src={props.src} size={"250"} round className='Custom-Avatar'/>
 }
 
 export default CustomAvatar;

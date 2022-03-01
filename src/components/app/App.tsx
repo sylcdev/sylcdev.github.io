@@ -1,6 +1,5 @@
 import React from 'react';
-import Avatar from 'react-avatar';
-import { Col, Container, Row } from 'react-grid-system';
+import { Col, Container, Hidden, Row } from 'react-grid-system';
 import logo from '../../logo.svg';
 import CustomAvatar from '../custom-avatar/CustomAvatar';
 import './App.css';
@@ -16,12 +15,15 @@ function App() {
           <Row>
             <Col lg={6} md={12}>
               <Row justify="center">
-                  <CustomAvatar name='Marc-André Côté'/>
+                  <CustomAvatar name='Marc-André Côté' />
               </Row>
               <Row justify="center">
                 <span>Marc-André Côté</span>
               </Row>
             </Col>
+            <Hidden lg xl xxl>
+              <Col md={12} style={{height:50}}></Col> 
+            </Hidden>
             <Col lg={6} md={12}>
               <Row justify="center">
                 <CustomAvatar name='Cédric Lampron'/>
