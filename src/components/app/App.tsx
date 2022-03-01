@@ -15,7 +15,7 @@ function App() {
           <Row>
             <Col lg={6} md={12}>
               <Row justify="center">
-                  <CustomAvatar name='Marc-André Côté' />
+                  <CustomAvatar initials='MAC' name='Marc-André Côté' />
               </Row>
               <Row justify="center">
                 <span>Marc-André Côté</span>
