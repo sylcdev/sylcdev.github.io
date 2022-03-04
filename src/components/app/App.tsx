@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Hidden, Row } from 'react-grid-system';
 import logo from '../../logo.svg';
-import CustomAvatar from '../custom-avatar/CustomAvatar';
+import GithubAvatar from '../custom-avatar/GithubAvatar';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Row>
             <Col lg={6} md={12}>
               <Row justify="center">
-                  <CustomAvatar initials='MAC' name='Marc-André Côté' />
+                  <GithubAvatar username='macote'/>
               </Row>
               <Row justify="center">
                 <span>Marc-André Côté</span>
@@ -26,7 +26,7 @@ function App() {
             </Hidden>
             <Col lg={6} md={12}>
               <Row justify="center">
-                <CustomAvatar name='Cédric Lampron'/>
+                <GithubAvatar username='c1rdec'/>
               </Row>
               <Row justify="center">
                 <span>Cédric Lampron</span>
