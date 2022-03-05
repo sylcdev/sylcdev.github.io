@@ -19,7 +19,7 @@ function LottieAnimation(props: ILottieAnimationProps) {
             rendererSettings:{
                 preserveAspectRatio: "xMidYMid meet",
                 viewBoxOnly: true,
-                viewBoxSize: '0 120 500 300',
+                viewBoxSize: '-8 120 500 300',
             }
         }).resize();
       }, []);
