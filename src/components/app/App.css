@@ -4,6 +4,10 @@
   width: 90vmin;
 }
 
+.animation {
+  height: 60vmin;
+  width: 100vmin;
+}
 
 .App-header {
   background-color: #282c34;

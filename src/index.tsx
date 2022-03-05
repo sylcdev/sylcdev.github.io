@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/App';
+import LottieAnimation from './components/lottie-animation/LottieAnimation';
 import './index.css';
 
 ReactDOM.render(

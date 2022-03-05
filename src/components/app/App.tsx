@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Hidden, Row } from 'react-grid-system';
-import logo from '../../logo.svg';
 import GithubAvatar from '../custom-avatar/GithubAvatar';
+import LottieAnimation from '../lottie-animation/LottieAnimation';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <Container fluid>
           <Row justify="center">
-            <img src={logo} className="App-logo" alt="logo" />
+            <LottieAnimation className='animation'/>
           </Row>
           <Row>
             <Col lg={6} md={12}>
@@ -33,7 +33,7 @@ function App() {
               </Row>
             </Col>
           </Row>
-          <Row style={{height:50}}/>
+          <Row style={{height:50}}><div></div></Row>
         </Container>
       </header>
     </div>
