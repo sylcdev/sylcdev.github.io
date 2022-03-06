@@ -1,4 +1,4 @@
-import React, { RefObject, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import animationData from "../../assets/SYLCAnimation.json";
 import lottie from 'lottie-web'
 
@@ -13,13 +13,13 @@ function LottieAnimation(props: ILottieAnimationProps) {
         lottie.loadAnimation({
             container: divElement as Element,
             renderer: "svg",
-            loop: false,
+            loop: true,
             autoplay: true,
             animationData: animationData,
             rendererSettings:{
                 preserveAspectRatio: "xMidYMid meet",
                 viewBoxOnly: true,
-                viewBoxSize: '-8 120 500 300',
+                viewBoxSize: '0 120 500 300',
             }
         }).resize();
       }, []);
