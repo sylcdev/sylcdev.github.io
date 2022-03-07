@@ -13,8 +13,8 @@ function LottieAnimation(props: ILottieAnimationProps) {
         lottie.loadAnimation({
             container: divElement as Element,
             renderer: "svg",
-            loop: true,
-            autoplay: false,
+            loop: false,
+            autoplay: true,
             animationData: animationData,
             rendererSettings:{
                 preserveAspectRatio: "xMidYMid meet",
