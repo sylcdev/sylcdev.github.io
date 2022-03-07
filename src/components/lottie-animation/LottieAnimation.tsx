@@ -14,7 +14,7 @@ function LottieAnimation(props: ILottieAnimationProps) {
             container: divElement as Element,
             renderer: "svg",
             loop: true,
-            autoplay: true,
+            autoplay: false,
             animationData: animationData,
             rendererSettings:{
                 preserveAspectRatio: "xMidYMid meet",
